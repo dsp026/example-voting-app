@@ -1,0 +1,11 @@
+name: Sample test workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on:
+      - ubuntu-latest
+    steps:
+      - name: "Just Print"
+        run: "echo 'Hello, I'm Good"
